@@ -46,28 +46,7 @@
             });
         });
     </script>
-    <script>
-        var myVideo = document.getElementById("video1");
 
-        function playPause() {
-            if (myVideo.paused)
-                myVideo.play();
-            else
-                myVideo.pause();
-        }
-
-        function makeBig() {
-            myVideo.width = 560;
-        }
-
-        function makeSmall() {
-            myVideo.width = 320;
-        }
-
-        function makeNormal() {
-            myVideo.width = 420;
-        }
-    </script>
 </head>
 <body>
 <div>
@@ -140,22 +119,12 @@
                     <a href="https://orgasmsoundlibrary.com/">羞羞之音</a>
                 </td>
                 <td><a href="https://github.com/getlantern/lantern">lantern下载</a></td>
-                <td>持续更新。。。。</td>
+                <td><a href="videoMore.html">更多搞笑视频</a></td>
                 <td>持续更新。。。。</td>
                 <td>持续更新。。。。</td>
             </tr>
         </table>
-        <div style="text-align:center">
-            <button onclick="playPause()">播放/暂停</button>
-            <button onclick="makeBig()">放大</button>
-            <button onclick="makeSmall()">缩小</button>
-            <button onclick="makeNormal()">普通</button>
-            <br>
-            <video id="video1" width="420">
-                <source src="/video/2020-10-26.mp4" type="video/mp4">
-                您的浏览器不支持 HTML5 video 标签。
-            </video>
-        </div>
+
         <br/>
         <br/>
         <br/>
